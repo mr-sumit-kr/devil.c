@@ -16,11 +16,9 @@ int main()
      {
            for(j=0;j<3;j++) 
            {
-                 printf("%d ", disp[i][j]);
-                 if(j==2)
-                 {
-                       printf("n");
-                 }
+               // the main is ery large 
+	       printf("Enter value for disp[%d][%d]:", i, j);
+                  scanf("%d", &disp[i][j]);
            }
      }
      return 0;
