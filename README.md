@@ -16,10 +16,9 @@ int main()
      {
            for(j=0;j<3;j++) 
            {
-                for(j=0;j<6;j++)
-			 {
-			 printf("this is a git");
-                 }
+               // the main is ery large 
+	       printf("Enter value for disp[%d][%d]:", i, j);
+                  scanf("%d", &disp[i][j]);
            }
      }
      return 0;
