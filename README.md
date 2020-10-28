@@ -16,10 +16,9 @@ int main()
      {
            for(j=0;j<3;j++) 
            {
-                 printf("%d ", disp[i][j]);
-                 if(j==2)
-                 {
-                       printf("n");
+                for(j=0;j<6;j++)
+			 {
+			 printf("this is a git");
                  }
            }
      }
