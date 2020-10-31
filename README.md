@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdio.h> 
-#include<stdlib.h> 
 struct node  
 { 
     int data; 
@@ -11,7 +10,7 @@ int main()
 {
      int disp[2][3];
      int i, j;
-     for(i=0; i<2; i++) 
+     for(i=0; i<2; ++i) 
      {
            for(j=0;j<3;j++) 
            {
@@ -23,8 +22,7 @@ int main()
      for(i=0; i<2; i++) 
      {
            for(j=0;j<3;j++) 
-           {
-               // the main is ery large 
+           { 
 	       printf("Enter value for disp[%d][%d]:", i, j);
                   scanf("%d", &disp[i][j]);
            }
